@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #f1f5f9;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+/* Upload Box */
+#drop-area {
+    border: 2px dashed #38bdf8;
+    padding: 40px;
+    width: 400px;
+    margin: auto;
+    border-radius: 12px;
+    background: #020617;
+    transition: 0.3s;
+}
+
+#drop-area:hover {
+    background: #020617;
+    border-color: #0ea5e9;
+}
+
+#upload-text {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+/* File name */
+#file-name {
+    margin-top: 10px;
+    color: #22c55e;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0284c7;
+}
+
+/* Loader */
+#loader {
+    margin-top: 15px;
+    color: #facc15;
+}
+
+/* Preview */
+#preview-section {
+    margin-top: 30px;
+}
+
+#pdf-preview {
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Download button */
+#download-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #22c55e;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#download-btn:hover {
+    background: #16a34a;
+}
+
+/* Info box */
+.info {
+    margin-top: 40px;
+    background: #020617;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+}
+
+.info ul {
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    color: #64748b;
+    font-size: 14px;
+}

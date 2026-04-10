@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PDF Booklet Maker</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <h1>📚 PDF Booklet Maker</h1>
+        <p class="subtitle">Convert your PDF into print-ready booklet format</p>
+
+        <!-- Upload Box -->
+        <div id="drop-area">
+            <p id="upload-text">📄 Drag & Drop PDF here or click to upload</p>
+            <input type="file" id="fileElem" accept="application/pdf">
+        </div>
+
+        <!-- File Info -->
+        <p id="file-name"></p>
+
+        <!-- Button -->
+        <button onclick="uploadPDF()">Convert to Booklet</button>
+
+        <!-- Loader -->
+        <div id="loader" style="display:none;">⏳ Processing PDF...</div>
+
+        <!-- Preview -->
+        <div id="preview-section" style="display:none;">
+            <h3>📖 Preview</h3>
+            <iframe id="pdf-preview"></iframe><br>
+            <a id="download-btn">⬇ Download Booklet</a>
+        </div>
+
+        <!-- Instructions -->
+        <div class="info">
+            <h3>🖨 Print Instructions</h3>
+            <ul>
+                <li>Use Landscape mode</li>
+                <li>Print Double-sided</li>
+                <li>Flip on short edge</li>
+                <li>Fold pages from middle</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with ❤️ | PDF Booklet Tool</p>
+        </footer>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
